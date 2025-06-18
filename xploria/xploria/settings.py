@@ -89,7 +89,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 # Add this only if not already set
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'dashboard'),
+    os.path.join(BASE_DIR, 'dashboard/static'),
 ]
 
 MEDIA_URL = '/media/'
